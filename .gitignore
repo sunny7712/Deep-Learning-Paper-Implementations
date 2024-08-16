@@ -1,1 +1,8 @@
 venv
+celeba_hq_256
+__pycache__
+logs
+critic.pth
+generator.pth
+data
+archive

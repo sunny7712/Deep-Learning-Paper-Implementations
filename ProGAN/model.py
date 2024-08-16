@@ -15,7 +15,7 @@ class WSConv2D(nn.Module): # paper section 4.1
 
     def forward(self, x):
         # self.conv(x * self.ws) shape -> (batch_size, out_chans, n, n)
-        # self.bias shape -> (out_cha, ). To add we need to broadcast it to (1, out_chans, 1, )
+        # self.bias shape -> (out_cha, ). To add we need to broadcast it to (1, out_chans, 1, 1)
         return self.conv(x * self.ws) + self.bias.view(1, self.bias.shape[0], 1, 1)
 
 class PixelNorm(nn.Module): # paper section 4.2
@@ -168,20 +168,3 @@ if __name__ == "__main__":
         disc_output = critic(gen_output, 0.5, num_steps)
         assert disc_output.shape == (1, 1)
         print(f"Success! At img size: {img_size}")
-
-
-
-
-
-
-    
-        
-
-        
-
-
-        
-
-
-
-
