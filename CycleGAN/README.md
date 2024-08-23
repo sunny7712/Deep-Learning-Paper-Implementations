@@ -5,15 +5,15 @@
 
 * Horse to Zebra
 
-![Horse to Zebra](CycleGAN/saved_images/zebra_600.png)
+![Horse to Zebra](saved_images/zebra_600.png)
 ![Horse to Zebra](saved_images/zebra_1200.png)
 
 
 
 * Zebra to Horse
 
-![Zebra to Horse](CycleGAN/saved_images/horse_200.png)
-![Zebra to Horse](CycleGAN/saved_images/horse_1200.png)
+![Zebra to Horse](saved_images/horse_200.png)
+![Zebra to Horse](saved_images/horse_1200.png)
 
 The shape is of the horse, but strips are still visible. Have to improve this!
 
