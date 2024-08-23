@@ -4,5 +4,10 @@ __pycache__
 logs
 critic.pth
 generator.pth
+critich.pth.tar
+criticz.pth.tar
+genh.pth.tar
+genz.pth.tar
 data
 archive
+horse2zebra
